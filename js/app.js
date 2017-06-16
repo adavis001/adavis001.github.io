@@ -82,3 +82,17 @@ d3.select("body")
         d3.selectAll("p")
           .style("background-color", "white");
       });
+
+// d3.select("body")
+//   .selectAll("tr")
+//     .on("mouseover", function(d) {
+//       d3.select(this)
+//         .style("background-color", "gold");
+//       })
+//       .on("mouseout", function(d){
+//         d3.selectAll("text.note").remove();
+//         d3.selectAll("tr")
+//           .style("background-color", "white");
+//       });
+
+
