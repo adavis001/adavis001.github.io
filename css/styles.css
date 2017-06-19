@@ -226,24 +226,14 @@ h6 + h3 {
   h6 + h3 {
     margin-top: 0.15in; } }
 
-table{
-
-}
-th{
-  padding-right: 5vw;
-}
-
-td{
-  padding-right: 5vw;
-  padding-bottom: 0.5vw;
-}
-
-#table1{
+.grid{
+  display: flex;
+  justify-content: space-between;
   align-content: center;
-
 }
-
-#table2{
-  align-content: center;
-
+.column-title{
+  text-align: center;
+}
+.column{
+  width: 32%;
 }
